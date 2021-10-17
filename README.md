@@ -75,16 +75,41 @@ horario < 12 ? console.log("dia") : console.log("noite");
 A condicional switch avalia uma expressão, combinando o valor da expressão para um cláusula `case`, e executa as instruções associadas ao case. _(MDN)_ Passamos o `break` para sair da condicional quando um case é correspondido e sua instrução executada. Caso nenhum case seja correspondido podemos usar a cláusula `default` (opcional)
 
 ```js
-if (horario >= 0 && horario < 6) {
-  console.log("madrugada");
-} else if (horario >= 6 && horario < 12) {
-  console.log("manhã");
-} else if (horario >= 12 && horario < 18) {
-  console.log("tarde");
-} else if (horario >= 18 && horario < 24) {
-  console.log("noite");
-} else {
-  console.log("horário inválido");
+switch (horario) {
+  case 0:
+  case 1:
+  case 2:
+  case 3:
+  case 4:
+  case 5:
+    console.log("madrugada")
+    break
+  case 6:
+  case 7:
+  case 8:
+  case 9:
+  case 10:
+  case 11:
+    console.log("manhã")
+    break
+  case 12:
+  case 13:
+  case 14:
+  case 15:
+  case 16:
+  case 17:
+    console.log("tarde")
+    break
+  case 18:
+  case 19:
+  case 20:
+  case 21:
+  case 22:
+  case 23:
+    console.log("noite")
+    break
+  default:
+    console.log("horário inválido");
 }
 ```
 
@@ -191,7 +216,7 @@ const calcular = (a, b, callback) => callback(a, b);
 ```js
 const tipos = ["String", "Números", "Booleanos"];
 const cidades = new Array("Recife", "São Paulo", "Manaus");
-const cursos = "frontend backend".slit(" ");
+const cursos = "frontend backend".split(" ");
 const tecnologias = Array.of("HTML", "CSS", JS);
 ```
 
@@ -201,7 +226,7 @@ const tecnologias = Array.of("HTML", "CSS", JS);
 console.log(alunas[1]);
 ```
 
-**Desestruturando um objeto:**
+**Desestruturando uma array:**
 
 ```js
 const [primeiro, segundo] = tipos;
@@ -316,7 +341,7 @@ console.log(segundo);
 - `includes()` -> determina se um array contém um determinado elemento, retornando true ou false apropriadamente. _(MDN)_
 
   ```js
-  const verificaSeExiste = numeros.indexOf(4);
+  const verificaSeExiste = numeros.includes(4);
   console.log(localizaElemento); // true
   ```
 
@@ -385,10 +410,10 @@ const dia = hoje.getDate();
 const mes = hoje.getMonth();
 const ano = hoje.getFullYear();
 
-console.log(dia, mes, ano); // 16 10 2021 🤔
+console.log(`${dia}/${mes + 1}/${ano}`); // 16/10/2021 🤔
 
 const dataFormatada = hoje.toLocaleDateString("pt-BR");
-console.log(dataFormatada); // 05/09/2020
+console.log(dataFormatada); // 16/10/2021
 
 const options = {
   weekday: "long",
