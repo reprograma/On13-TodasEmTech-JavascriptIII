@@ -1,24 +1,24 @@
 const json = [
   {
-    "nome": "Liniker",
-    "foto": "../assets/liniker.webp",
-    "generos": ["MPB", "Soul", "R&B", "Blues"],
-    "discografia": ["Remonta", "Goela Abaixo", "Indigo Borboleta Azul"], 
-    "instagram": "https://www.instagram.com/linikeroficial/"
+    "nome": "Anitta",
+    "foto": "./imagens/anitta.jpg",
+    "generos": ["Pop"],
+    "discografia": ["Anitta", "Ritmo Perfeito", "Bang", "Kisses"], 
+    "instagram": "https://www.instagram.com/anitta"
   },
   {
-    "nome": "Liniker",
-    "foto": "../assets/liniker.webp",
-    "generos": ["MPB", "Soul", "R&B", "Blues"],
-    "discografia": ["Remonta", "Goela Abaixo", "Indigo Borboleta Azul"], 
-    "instagram": "https://www.instagram.com/linikeroficial/"
+    "nome": "Marília Mendonça",
+    "foto": "./imagens/marilia mendonça.jpg",
+    "generos": ["Sertanejo"],
+    "discografia": ["Marília Mendonça: Ao Vivo", "Realidade", "Todos os Cantos Vol.1, Vol.2 e Vol.3"], 
+    "instagram": "https://www.instagram.com/mariliamendoncacantora"
   },
   {
-    "nome": "Liniker",
-    "foto": "../assets/liniker.webp",
-    "generos": ["MPB", "Soul", "R&B", "Blues"],
-    "discografia": ["Remonta", "Goela Abaixo", "Indigo Borboleta Azul"], 
-    "instagram": "https://www.instagram.com/linikeroficial/"
+    "nome": "Iza",
+    "foto": "./imagens/iza.png",
+    "generos": ["Pop", "R&B", "Soul", "Reggae Fusion"],
+    "discografia": ["Dona de Mim", "Goela Abaixo", "Indigo Borboleta Azul"], 
+    "instagram": "https://www.instagram.com/iza"
   }
 ]
 
