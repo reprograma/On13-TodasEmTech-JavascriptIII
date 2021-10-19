@@ -1,6 +1,5 @@
     @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,400&display=swap');
 
-    /* class é . e id é # */
 
     * {
         margin: 0;
@@ -14,7 +13,7 @@
     body {
         min-height: 100vh;
         width: 100%;
-        background-color: #8854d0;
+        background-color: #abc9bf;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -29,24 +28,31 @@
     #card-marilia,
     #card-iza {
         margin-inline: 20px;
-        background-color: #f1f1f140;
+        background-color: #9e5571;
         border-radius: 2rem;
         min-width: 35rem;
         min-height: 60vh;
         padding: 3rem;
-        box-shadow: 2px 4px 10px #57657470;
+        box-shadow: 5px 5px 10px #57657470;
     }
 
-    #foto {
-        margin-top: 1rem;
+    #fotoA, #fotoM, #fotoI {
+        margin: 1rem 0 3rem 0;
         border-radius: 50%;
-        border: solid 2px #a55eea50;
+        border: solid 2px #abc9bf;
+        box-shadow: 5px 5px 5px #57657470;
+        width: 250px;
+        height: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
     }
 
-    #titulo {
-        margin: 2rem 0 1rem 0;
-        font-size: 4rem;
-        color: #f3f3f399;
+    #tituloA, #tituloM, #tituloI {
+        margin: 2rem 0 3rem 0;
+        font-size: 3rem;
+        color: #ffffff;
         text-align: center;
     }
 
@@ -61,7 +67,7 @@
     .genero,
     .discografia {
         font-size: 1.6rem;
-        color: #f3f3f399;
+        color: #ffffff;
         font-weight: 600;
     }
 
@@ -72,7 +78,7 @@
 
     .texto {
         font-size: 1.3rem;
-        color: #f3f3f399;
+        color: #ffffff;
         margin-left: 1.5rem;
         font-weight: 600;
         text-decoration: none;
@@ -83,6 +89,7 @@
         font-size: 4rem;
         text-align: center;
         width: 100%;
-        filter: drop-shadow(1px 1px 1px #57657490);
+        color: #abc9bf;
+        filter: drop-shadow(1px 1px 1px #abc9bf);
       }
       
