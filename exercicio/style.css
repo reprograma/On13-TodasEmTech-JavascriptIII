@@ -34,11 +34,8 @@ body, html {
     text-align: center;
 }
 
-#name1, #name2, #name3 {
-   
-}
 
-#photo1, #photo2, #photo3 {
+.photo {
     width: 13rem;
     height: 13rem;
     border-radius: 50%;
