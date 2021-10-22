@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+}
+
+.page {
+    background-image: linear-gradient(315deg, #92fac6 0%, #eabafd 74%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.title__page {
+    font-size: 4rem;
+    color: whitesmoke;
+    text-align: center;
+    margin: 3.2rem;
+    text-shadow: rgb(114, 7, 57) 2px 3px 2px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+}
+
+.card__singer {
+    width: 23rem;
+    height: 45rem;
+    align-items: center;
+    border-radius: 1.5rem;
+    box-shadow: 5px 5px 10px 1px grey;
+    margin: 1rem 0 3rem 0;
+}
+
+.card__singer:hover {
+    transition: all 1s;
+    transform: scale(1.1);
+}
+
+.singer__1, .singer__2, .singer__3 {
+    width: 23rem;
+    height: 20rem;
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+
+#title__pitty, #title__iza, #title__anitta {
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem 0;
+    color: #240808;
+}
+
+.tipography {
+    font-size: 1.3rem;
+    margin-left: 1rem;
+}
+
+.fab {
+    margin-top: 2rem;
+    font-size: 2.3rem;
+    text-align: center;
+    width: 100%;
+    color: purple;
+}
+
+.fab:hover {
+    color: rgb(206, 14, 94);
+}
+
+hr {
+    margin: 1rem 0;
+    opacity: .2;
+}
