@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+  /* https://fonts.google.com/specimen/Nunito */
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, #f5c0c8,#d1a9db, #b196ea );
+  /* https://flatuicolors.com/palette/de */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main{
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title{
+  color: #f3f3f3;
+  font-size: 3rem;
+}
+
+.container{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card{
+  background-color: #f1f1f185;
+  backdrop-filter: blur(10px);
+  min-width: 33rem;
+  min-height: 70vh;
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2rem;
+  box-shadow: 2px 4px 10px #57657470;
+}
+
+
+.image{
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+}
+
+.title-singer{
+  height: 10vh;
+  font-size: 4rem;
+  font-weight: 500;
+  color: #5f27cd80;
+}
+
+.card-informations{
+  height: 25vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+hr{
+    height: 10px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(145, 30, 30, 0.3);
+}
+
+p{
+  font-size: 1.6rem;
+  color: #5f27cd80;
+}
+
+span{
+  font-size: 1.3rem;
+  margin-left: 5%;
+}
+
+span{
+  text-indent: 2px;
+}
+
+
+.icons{
+  width: 80%;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+i{
+  font-size: 25px;
+  color: #5f27cd80;
+}
