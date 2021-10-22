@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,400&display=swap');
+
+    /* class é . e id é # */
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+        font-size: 10px;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    body {
+        min-height: 100vh;
+        width: 100%;
+        background-color: #190B07;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #card-sandra-sa,
+    #card-ludmilla,
+    #card-elza-soares {
+        margin-inline: 20px;
+        background-color:#190B07;
+        border-radius: 2rem;
+        min-width: 35rem;
+        min-height: 60vh;
+        padding: 3rem;
+        box-shadow: 2px 4px 10px #190B07;
+    }
+
+    #fotoA {
+        left: 100%;
+        width: 100%;
+        margin-top: 1rem;
+        border-radius: 10%;
+        border: solid 2px #DF7401;
+    
+    }
+
+    #fotoM {
+        left: 100%;
+        width: 95%;
+        margin-top: 1rem;
+        border-radius: 10%;
+        border: solid 2px #DF7401;
+    }
+
+    #fotoI {
+        left: 100%;
+        width: 100%;
+        margin-top: 1rem;
+        border-radius: 10%;
+        border: solid 2px #DF7401;
+    }
+
+    #titulo {
+        margin: 2rem 0 1rem 0;
+        font-size: 4rem;
+        color: #DBA901;
+        text-align: center;
+    }
+
+    .genero,
+    .discografia,
+    .insta {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .genero,
+    .discografia {
+        font-size: 1.6rem;
+        color: #DBA901;
+        font-weight: 600;
+    }
+
+    hr {
+        margin: 1rem 0;
+        opacity: .2;
+    }
+
+    .texto {
+        font-size: 1.3rem;
+        color:#DBA901;
+        margin-left: 1.5rem;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    .fab {
+        margin-top: 1.8rem;
+        font-size: 4rem;
+        text-align: center;
+        width: 100%;
+        filter: drop-shadow(1px 1px 1px #57657490);
+      }
