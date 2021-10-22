@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,400&display=swap');
+
+*{
+    font-size: 62,5%;
+    margin: 0%;
+    font-family: 'Nunito', sans-serif; /* https://fonts.google.com/specimen/Nunito */
+
+}
+
+
+html{
+    background-color:#d32b43;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mockupIphone {
+    background: url(/exercicio/Images/Flat\ iPhone.png);
+    background-position: inherit;
+    width: 400px;
+    height: 800px;
+    background-size:cover;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dados_itens{
+    margin-top: 100px;
+    width: 250px;
+    max-height: 700px;
+    justify-items: center;
+    align-items: center;
+}
+
+.photography {
+    margin-top: 1rem;
+    border-radius: 50%;
+    border: solid 2px black;
+    justify-content: center;
+    margin-left: 20px;
+  }
+
+
+  .title {
+    margin: 2rem 0 1rem 0;
+    font-size: 2.0rem;
+    color: #f3f3f399;
+    text-align: center;
+  }
+
+.tipography {
+    font-size: 1rem;
+    color: #f3f3f399;
+    font-weight: 600;
+}
+
+.fab {
+  margin-top: 1.8rem;
+  font-size: 3rem;
+  text-align: center;
+  width: 100%;
+  color: whitesmoke;
+  filter: drop-shadow(1px 1px 1px rgb(20, 19, 19));
+} 
+
+
