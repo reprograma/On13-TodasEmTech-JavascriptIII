@@ -42,7 +42,7 @@ Importante:
 3. Entregue este exercício da maneira que conseguir, use o exemplo da sala para guiar nesta construção;
 
 */
-
+const card = document.querySelectorAll(".card")
 const image = document.querySelectorAll(".image");
 const title = document.querySelectorAll(".title-singer");
 const genres = document.querySelectorAll(".genres");
@@ -56,7 +56,7 @@ const spotify = document.querySelectorAll('#spotify')
 
 function dates() {
 
-  for (let i = 0; i <= image.length; i++) {
+  for (let i = 0; i <= card.length; i++) {
     image[i].setAttribute('src', json[i].foto);
 
     title[i].innerText = json[i].nome;
