@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,400&display=swap');
+
+* {
+  margin: 2;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-size: 12px;
+  font-family:'Montserrat', sans-serif; 
+  
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #2bcbba; /* https://flatuicolors.com/palette/de */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#main-wrapper {
+  background-color: #596fd46c;
+  backdrop-filter: blur(10px);
+  min-width: 35rem;
+  min-height: 60vh;
+  padding: 6rem;
+  flex-direction: column;
+  border-radius: 2rem;
+  box-shadow: 2px 4px 10px #57657470;
+  display: flex;
+  align-items: center;
+  
+  
+}
+
+#photography {
+  margin-top: 2rem;
+  border-radius: 10%;
+  border: solid 2px #a3a3a3;
+}
+
+#title {
+  margin: 2rem 0 1rem 0;
+  font-size: 4rem;
+  color: #f3f3f399;
+  display: flex;
+ }
+
+.infos-wrapper {
+  display: flex;
+  flex-direction: flex-start;
+  width: 100%;
+}
+
+.cantoraLiniker .cantoraIza .cantoraSandy
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+
+.tipography {
+  font-size: 1.6rem;
+  color: #f3f3f399;
+  font-weight: 600;
+  word-break: inherit;
+}
+
+hr {
+  margin: 1rem 0;
+  opacity: .2;
+}
+
+.dynamic-text {
+  font-size: 1.3rem;
+  color: #f3f3f399;
+  margin-left: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.fab {
+  margin-top: 1.8rem;
+  font-size: 3rem;
+  text-align: center;
+  width: 100%;
+  filter: drop-shadow(1px 1px 1px #57657490);
+} 
+
+.link {
+    margin: 10px;
+} 

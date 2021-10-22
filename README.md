@@ -191,7 +191,7 @@ const calcular = (a, b, callback) => callback(a, b);
 ```js
 const tipos = ["String", "Números", "Booleanos"];
 const cidades = new Array("Recife", "São Paulo", "Manaus");
-const cursos = "frontend backend".slit(" ");
+const cursos = "frontend backend".split(" ");
 const tecnologias = Array.of("HTML", "CSS", JS);
 ```
 
@@ -201,7 +201,7 @@ const tecnologias = Array.of("HTML", "CSS", JS);
 console.log(alunas[1]);
 ```
 
-**Desestruturando um objeto:**
+**Desestruturando uma array:**
 
 ```js
 const [primeiro, segundo] = tipos;
@@ -316,7 +316,7 @@ console.log(segundo);
 - `includes()` -> determina se um array contém um determinado elemento, retornando true ou false apropriadamente. _(MDN)_
 
   ```js
-  const verificaSeExiste = numeros.indexOf(4);
+  const verificaSeExiste = numeros.includes(4);
   console.log(localizaElemento); // true
   ```
 
