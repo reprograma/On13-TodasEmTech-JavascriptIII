@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  margin: 10px;
+  background-color: black;
+  backdrop-filter: blur(10px);
+  min-width: 35rem;
+  min-height: 60vh;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2rem;
+  box-shadow: 2px 4px 10px lightcoral;
+  transition: 0.5s all;
+}
+
+#container:hover{
+  transform: scale(1.1);
+}
+
+#foto, #foto-2, #foto-3 {
+  margin-top: 1rem;
+  border-radius: 50%;
+  border: solid 1.5px lightcoral;
+}
+
+#titulo-1, #titulo-2, #titulo-3 {
+  margin: 2rem 0 1rem 0;
+  font-size: 4rem;
+  color: #fff8dc;
+}
+
+#informacoes, #informacoes-2, #informacoes-3 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.tipografia {
+  font-size: 1.6rem;
+  color: lightcoral;
+  font-weight: 600;
+}
+
+hr {
+  margin: 1rem 0;
+  opacity: 0.2;
+}
+
+.textos {
+  font-size: 1.3rem;
+  color: #fff8dc;
+  margin-left: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.instagram-lk, .instagram-2, .instagram-3 {
+  margin-top: 1.8rem;
+  font-size: 3rem;
+  text-align: center;
+  align-items: center;
+  width: 10%;
+}
+
+a{
+  text-align: center;
+}
