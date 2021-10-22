@@ -1,0 +1,83 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background: rgb(241, 14, 14);
+    }
+    
+    .instlogo {
+        padding: 10px;
+        height: 100px;
+        width: 100px;
+        align-items: center;
+    }
+    
+    .caixa1 {
+        background: white;
+        width: 400px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 5px;
+        margin: 50px;
+        padding: 20px;
+    }
+    
+    .caixa2 {
+        background: white;
+        width: 400px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px;
+        padding: 20px;
+    }
+    
+    .caixa3 {
+        background: white;
+        width: 400px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 5px;
+        margin: 50px;
+        padding: 20px;
+    }
+    
+    .foto {
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        border-radius: 100px;
+    }
+    
+    .pablloVittar {
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        border-radius: 100px;
+    }
+    
+    .ritaLee {
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        border-radius: 100px;
+    }
+    
+    .nome {
+        padding: 5px;
+    }
+    
+    .genero {
+        padding: 10px;
+    }
+    
+    .discografia {
+        padding: 8px;
+    }

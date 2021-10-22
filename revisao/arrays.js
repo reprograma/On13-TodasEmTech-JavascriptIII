@@ -15,8 +15,9 @@ const tecnologias = Array.of("HTML", "CSS", "JS");
 // console.log(cursos[0])
 // console.log(cursos[1])
 
+
+
 // desestruturando arrays
 
-const [ primeiro, segundo ] = tipos
+const [primeiro, segundo] = tipos
 console.log(primeiro)
-
