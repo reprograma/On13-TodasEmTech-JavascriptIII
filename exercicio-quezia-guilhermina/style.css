@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,400&display=swap');
+
+* {
+  margin: 0;
+  *padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-size: 10px;
+  font-family: 'Nunito', sans-serif; /* https://fonts.google.com/specimen/Nunito */
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  background-color:rgb(197, 211, 119); /* https://flatuicolors.com/palette/de */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  background-color: #76b93e38;
+  backdrop-filter: blur(10px);
+  min-width: 35rem;
+  min-height: 60vh;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1.8rem;
+  transition: 0.4s all;
+  margin: 10px;
+  box-shadow: 2px 4px 10px #69745770;
+}
+#container:hover{
+  transform:scaler(1.1);
+}
+
+#foto1, #foto2, #foto3{
+  border-radius: 60%;
+  margin-top: 1rem;
+  border:solid 1.2px rgb(219, 16, 33);
+}
+
+#titulo-1, #titulo-2, #titulo-3 {
+  margin: 2rem 0 2rem 0;
+  font-size: 2rem;
+  color: #161201;
+}
+#informacoesK, #informacoesL, #informacoesM{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+.discografia-1, .genero-1, .discografia-2, .genero-2, .discografia-3, .genero-3{
+  color: rgb(211, 233, 232);
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+hr{
+  margin: 4px;rem 0;
+  opacity: 0.4;
+}
+
+/*.textos {
+  font-size: 1.3rem;
+  color: #c22b2b;
+  margin-left: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+}*/
+.instagram-1, .instagram-2, .instagram-3{
+  margin-top: 1.7rem;
+  font-size: 2.6rem;
+  text-align: center;
+  align-items: center;
+  width: 10%;
+  
+}
+
+a{
+  text-align: center;
+}
