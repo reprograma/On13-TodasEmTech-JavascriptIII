@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--<input type="text" value="Oi" id="campo1">
+        <input type="text" id="campo2"><br><br>
+        <button onclick="copiar" ()>Copiar texto</button>-->
+
+    <label>Digite algo aqui</label>
+    <input type="text" name="text" id="texto" value="Oi" onchange="mudar(this.value )">
+    <p>Oi</p>
+
+    <script>
+        //function copiar() { //document.getElementById( " campo2 ").value=d ocument.getElementById( "campo1 ").value }
+
+        function mudar(value) {
+            document.querySelector("p").innerText = value
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgb(224, 149, 149), #abb0e0);
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #f1f1f140;
+    backdrop-filter: blur(10px);
+    min-width: 35rem;
+    min-height: 60vh;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2rem;
+    box-shadow: 2px 4px 10px #57657470;
+}
+
+.pagina__titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    color: #f3f3f3;
+}
+
+#foto__ac,
+#foto__vm,
+#foto__ss {
+    margin-top: 2rem;
+    border-radius: 20%;
+    border: solid 2px #a55eea50;
+}
+
+#titulo__anaCarolina,
+#titulo__vanessaMata,
+#titulo__simoneSimaria {
+    margin: 2rem 0 1rem 0;
+    font-size: 2rem;
+    color: #a7101c99;
+}
+
+.infos-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    border: 2px solid #a10943;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.tipografia {
+    font-size: 1.6rem;
+    color: #bd2a2a99;
+    font-weight: 600;
+}
+
+hr {
+    margin: 1rem 0;
+    opacity: .2;
+}
+
+.dynamic-text {
+    font-size: 2rem;
+    color: #1c1b1d99;
+    margin-left: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.fab {
+    margin-top: 1.8rem;
+    font-size: 3rem;
+    text-align: center;
+    width: 100%;
+    filter: drop-shadow(1px 1px 1px #57657490);
+}
