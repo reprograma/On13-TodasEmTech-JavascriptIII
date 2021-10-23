@@ -1,85 +1,131 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,400&display=swap');
-
 * {
   margin: 0;
-  *padding: 0;
+  padding: 0;
   box-sizing: border-box;
   list-style: none;
   font-size: 10px;
-  font-family: 'Nunito', sans-serif; /* https://fonts.google.com/specimen/Nunito */
+  font-family: 'Nunito', sans-serif;
+  /* https://fonts.google.com/specimen/Nunito */
 }
 
 body {
   min-height: 100vh;
   width: 100%;
-  background-color:rgb(197, 211, 119); /* https://flatuicolors.com/palette/de */
+  background-color: #8854d0;
+  /* https://flatuicolors.com/palette/de */
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 5rem;
 }
 
-#container {
-  background-color: #76b93e38;
+#main-wrapper {
+  background-color: #f1f1f140;
   backdrop-filter: blur(10px);
-  min-width: 35rem;
-  min-height: 60vh;
-  padding: 3rem;
+  min-width: 40rem;
+  min-height: 70vh;
+  padding: 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 1.8rem;
-  transition: 0.4s all;
-  margin: 10px;
-  box-shadow: 2px 4px 10px #69745770;
-}
-#container:hover{
-  transform:scaler(1.1);
+  border-radius: 2rem;
+  box-shadow: 2px 4px 10px #57657470;
 }
 
-#foto1, #foto2, #foto3{
-  border-radius: 60%;
+#main-wrapper>div {
+  background-color: #d1272740;
+  backdrop-filter: blur(10px);
+  min-width: 35rem;
+  min-height: 70vh;
+  padding: 6rem;
+  display: flex;
+  /*flex-direction: column;*/
+  align-items: center;
+  border-radius: 2rem;
+  box-shadow: 2px 4px 10px #4f5a6670;
+  flex: auto;
+}
+
+#photography-kemilly, #photography-Ludmila, #photography-Mary {
   margin-top: 1rem;
-  border:solid 1.2px rgb(219, 16, 33);
+  border-radius: 50%;
+  border: solid 3px #a55eea50;
+  width: 80%;
+  height: 202;
 }
 
-#titulo-1, #titulo-2, #titulo-3 {
-  margin: 2rem 0 2rem 0;
-  font-size: 2rem;
-  color: #161201;
+#title_Kemilly, #title_Ludmila, #title_Mary {
+  margin: 2rem 0 1rem 0;
+  font-size: 4rem;
+  color: #f3f3f399;
 }
-#informacoesK, #informacoesL, #informacoesM{
-  width: 100%;
+
+.cantora_Kemilly {
   display: flex;
   flex-direction: column;
-
+  width: 100%;
+  text-align: center;
+  align-items: center;
 }
-.discografia-1, .genero-1, .discografia-2, .genero-2, .discografia-3, .genero-3{
-  color: rgb(211, 233, 232);
-  font-size: 1.8rem;
+
+.cantora_Ludmila {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+.cantora_Mary {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+.infos-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.tipography_Kemilly, .tipography_Ludmila, .tipography_Mary {
+  font-size: 1.6rem;
+  color: #f3f3f399;
   font-weight: 500;
 }
 
-hr{
-  margin: 4px;rem 0;
-  opacity: 0.4;
+hr {
+  margin: 1rem 0;
+  opacity: .2;
 }
 
-/*.textos {
+.dynamic-text {
   font-size: 1.3rem;
-  color: #c22b2b;
-  margin-left: 1rem;
-  font-weight: 600;
+  color: #f3f3f399;
+  margin-left: 1.5rem;
+  font-weight: 760;
   text-decoration: none;
-}*/
-.instagram-1, .instagram-2, .instagram-3{
-  margin-top: 1.7rem;
-  font-size: 2.6rem;
-  text-align: center;
-  align-items: center;
-  width: 10%;
-  
 }
 
-a{
+.fab {
+  margin-top: 1.8rem;
+  font-size: 3rem;
   text-align: center;
+  width: 100%;
+  filter: drop-shadow(1px 1px 1px #57657490);
+}
+
+/*Responsividade*/
+
+@media (min-width: 768px) {
+  #main-wrapper {
+    padding: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
 }

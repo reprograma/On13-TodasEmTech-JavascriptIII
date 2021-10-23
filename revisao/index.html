@@ -2,79 +2,55 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Momentos</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Pratica com JSON</title>
 </head>
 
 <body>
 
-    <div id="container">
-        <img src="fotos/xande.png" width="200" id="foto" alt="harmonia" />
-        <h1 id="Harmonia do Samba"></h1>
-        <div id="informacoes">
-            <hr />
-            <p class="tipografia">HARMONIA DO SAMBA<BR>Gênero:<br> Pagode baiano formado em Salvador, Axé. <br /><span
-                    class="textos" id="genero"></span>
-            </p>
-            <hr />
-            <p class="tipografia">DISCOGRAFIA:<br> Harmonia do Samba é um grupo musical brasileiro de pagode baiano
-                formado em Salvador, Bahia em 1993. Tem como vocalista Xanddy. <br /><span class="textos"
-                    id="discografia"></span>
-            </p>
-            <hr />
-            <a id="instagram" href="" target="_blanck"><img
-                    src="https://i.pinimg.com/originals/66/41/c9/6641c94e15a0be37af49a4250386c03e.png"
-                    class="instagram-lk"></i></a>
-        </div>
+  <main id="main-wrapper">
+    <div class="cantora_Kemilly">
+    <img src="" width=200 id="photography-kemilly" alt="foto da cantora Kemilly">
+    <h1 id="title_Kemilly"></h1>
+      <hr>
+      <p class="tipography_Kemilly">Gêneros: <br><span class="dynamic-text" id="gender-kemilly"></span></p>
+      <hr>
+      <p class="tipography_Kemilly">Discografia: <br><span class="dynamic-text" id="discography-Kemilly"></span></p>
+      <hr>
+      <a id="instagram-Kemilly" target="_blank" href=""><i class="fab fa-instagram"></i></a>
+      <!-- https://fontawesome.com/v5.15/icons/instagram?style=brands -->
     </div>
 
-    <div id="container">
-        <img src="fotos/solange.png" width="200" id="foto-2" alt="solange" />
-        <h1 id="titulo-2"></h1>
-        <div id="informacoes-2">
-            <hr />
-            <p class="tipografia">GÊNERO: <br>Forró. <br /><span class="textos" id="genero-2"></span>
-            </p>
-            <hr />
-            <p class="tipografia">DISCOGRAFIA: <br>Solange Almeida Pereira, mais conhecida por Solange Almeida é uma
-                cantora, compositora, instrumentista, apresentadora e empresária brasileira. Antes de começar a cantar
-                na Aviões do Forró, Solange cantou em diversas bandas, como "Luis Cláudio & Cia", "Caciques", "Skema",
-                "Ogírio Cavalcante" e "Doce Mania". <br /><span class="textos" id="discografia-2"></span>
-            </p>
-            <hr />
-            <a id="instagram-2" href="" target="_blanck"><img
-                    src="https://i.pinimg.com/originals/66/41/c9/6641c94e15a0be37af49a4250386c03e.png"
-                    class="instagram-2"></i></a>
+    <div class="cantora_Ludmila">
+        <img src="" width=200 id="photography-ludmila" alt="foto da cantora Ludmila Feber">
+        <h1 id="title_Ludmila"></h1>
+          <hr>
+          <p class="tipography_Ludmila">Gêneros: <br><span class="dynamic-text" id="gender-ludmila"></span></p>
+          <hr>
+          <p class="tipography_Ludmila">Discografia: <br><span class="dynamic-text" id="discography-Ludmila"></span></p>
+          <hr>
+          <a id="instagram-Ludmila" target="_blank" href=""><i class="fab fa-instagram"></i></a>
+          <!-- https://fontawesome.com/v5.15/icons/instagram?style=brands -->
         </div>
-    </div>
 
-    <div id="container">
-        <img src="fotos/simoesimaria.png" width="200" id="foto-3" alt="simone e simaria" />
-        <h1 id="titulo-3"></h1>
-        <div id="informacoes-3">
-            <hr />
-            <p class="tipografia">GÊNERO:<br> Forró. <br /><span class="textos" id="genero-3"></span>
-            </p>
-            <hr />
-            <p class="tipografia">DISCOGRAFIA:<br>Simone & Simaria é uma dupla de música sertaneja brasileira formada em
-                2012 pelas irmãs Simone Mendes e Simaria Mendes. São também conhecidas pelo apelido de "as coleguinhas",
-                sendo a dupla brasileira com maior número de seguidores nas redes sociais. <br /><span class="textos"
-                    id="discografia-3"></span>
-            </p>
-            <hr />
-            <a id="instagram-3" href="" target="_blanck"><img
-                    src="https://i.pinimg.com/originals/66/41/c9/6641c94e15a0be37af49a4250386c03e.png"
-                    class="instagram-3"></i></a>
-        </div>
-    </div>
+        <div class="cantora_NegraMary">
+            <img src="" width=200 id="photography-Mary" alt="foto da cantora Negra Mary">
+            <h1 id="title_Mary"></h1>
+              <hr>
+              <p class="tipography_Mary">Gêneros: <br><span class="dynamic-text" id="gender-Mary"></span></p>
+              <hr>
+              <p class="tipography_Mary">Discografia: <br><span class="dynamic-text" id="discography-Mary"></span></p>
+              <hr>
+              <a id="instagram-Mary" target="_blank" href=""><i class="fab fa-instagram"></i></a>
+              <!-- https://fontawesome.com/v5.15/icons/instagram?style=brands -->
+            </div>
+  </main>
 
-    <script src="script.js"></script>
-    <script src="https://kit.fontawesome.com/0e3817284c.js" crossorigin="anonymous"></script>
-
-
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/0e3817284c.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
