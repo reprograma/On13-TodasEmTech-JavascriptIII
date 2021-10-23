@@ -1,26 +1,31 @@
 const json = [
   {
-    "nome": "Liniker",
-    "foto": "../assets/liniker.webp",
-    "generos": ["MPB", "Soul", "R&B", "Blues"],
-    "discografia": ["Remonta", "Goela Abaixo", "Indigo Borboleta Azul"], 
-    "instagram": "https://www.instagram.com/linikeroficial/"
+    nome: "Liniker",
+    foto: "../assets/liniker.webp",
+    generos: ["MPB", "Soul", "R&B", "Blues"],
+    discografia: ["Remonta", "Goela Abaixo", "Indigo Borboleta Azul"],
+    instagram: "https://www.instagram.com/linikeroficial/",
   },
   {
-    "nome": "Liniker",
-    "foto": "../assets/liniker.webp",
-    "generos": ["MPB", "Soul", "R&B", "Blues"],
-    "discografia": ["Remonta", "Goela Abaixo", "Indigo Borboleta Azul"], 
-    "instagram": "https://www.instagram.com/linikeroficial/"
+    nome: "Liniker",
+    foto: "../assets/liniker.webp",
+    generos: ["MPB", "Soul", "R&B", "Blues"],
+    discografia: ["Remonta", "Goela Abaixo", "Indigo Borboleta Azul"],
+    instagram: "https://www.instagram.com/linikeroficial/",
   },
   {
-    "nome": "Liniker",
-    "foto": "../assets/liniker.webp",
-    "generos": ["MPB", "Soul", "R&B", "Blues"],
-    "discografia": ["Remonta", "Goela Abaixo", "Indigo Borboleta Azul"], 
-    "instagram": "https://www.instagram.com/linikeroficial/"
-  }
-]
+    nome: "Liniker",
+    foto: "../assets/liniker.webp",
+    generos: ["MPB", "Soul", "R&B", "Blues"],
+    discografia: ["Remonta", "Goela Abaixo", "Indigo Borboleta Azul"],
+    instagram: "https://www.instagram.com/linikeroficial/",
+  },
+];
+
+const res = document.querySelector(".res");
+const cantora = json.map((cantora) => {
+  res.innerHTML = cantora.nome + " " + cantora.generos;
+});
 
 /* 
 
