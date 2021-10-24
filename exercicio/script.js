@@ -1,24 +1,24 @@
-const json = [
+const tCantorasJson = [
   {
-    "nome": "Liniker",
-    "foto": "../assets/liniker.webp",
-    "generos": ["MPB", "Soul", "R&B", "Blues"],
-    "discografia": ["Remonta", "Goela Abaixo", "Indigo Borboleta Azul"], 
-    "instagram": "https://www.instagram.com/linikeroficial/"
+    "nome": "Jup do Bairro",
+    "foto": "../img/jupdobairro.jpg",
+    "generos": ["Hip-hop", "Rap", "Funk", "Pop"],
+    "discografia": ["Corpo sem Juízo", "All you Need is Love", "Sinfonia do Corpo"], 
+    "instagram": "https://www.instagram.com/jupdobairro/"
   },
   {
-    "nome": "Liniker",
-    "foto": "../assets/liniker.webp",
-    "generos": ["MPB", "Soul", "R&B", "Blues"],
-    "discografia": ["Remonta", "Goela Abaixo", "Indigo Borboleta Azul"], 
-    "instagram": "https://www.instagram.com/linikeroficial/"
+    "nome": "Ventura Profana",
+    "foto": "../assets/venturaprofana.jpg",
+    "generos": ["Gospel", "Soul", "Rap", "Cânticos"],
+    "discografia": ["Resplandecente", "Eu não vou morrer", "Traquejos Pentecostais para Matar o Senhor"], 
+    "instagram": "https://www.instagram.com/venturaprofana/"
   },
   {
-    "nome": "Liniker",
-    "foto": "../assets/liniker.webp",
-    "generos": ["MPB", "Soul", "R&B", "Blues"],
-    "discografia": ["Remonta", "Goela Abaixo", "Indigo Borboleta Azul"], 
-    "instagram": "https://www.instagram.com/linikeroficial/"
+    "nome": "Linn da Quebrada",
+    "foto": "../assets/linndaquebrada.jpg",
+    "generos": ["Dance", "Funk", "R&B", "Eletrónica"],
+    "discografia": ["Pajubá", "Trava Línguas", "Pajubá Remix I & II"], 
+    "instagram": "https://www.instagram.com/linndaquebrada/"
   }
 ]
 
@@ -33,3 +33,55 @@ Importante:
 3. Entregue este exercício da maneira que conseguir, use o exemplo da sala para guiar nesta construção;
 
 */
+
+//Jup do Bairro
+
+const fotoJup = document.getElementById('photography_jup');
+const tituloJup = document.getElementById('title_jup');
+const generosJup = document.getElementById('gender_jup');
+const discografiaJup = document.getElementById('discography_jup');
+const instagramJup = document.getElementById('instagram_jup');
+
+
+function dadosJup () {
+  foto.setAttribute('src', tCantorasJson[0].foto);
+  titulo.innerText = tCantorasJson[0].nome;
+  generos.innerText = tCantorasJson[0].generos.join(" - ");
+  discografia.innerText = tCantorasJson[0].discografia.join(" - ");
+  instagram.setAttribute('href', tCantorasJson[0].instagram);
+}
+
+dadosJup()
+
+//Ventura Profana
+
+const fotoJup = document.getElementById('photography_ventura');
+const tituloJup = document.getElementById('title_ventura');
+const generosJup = document.getElementById('gender_ventura');
+const discografiaJup = document.getElementById('discography_ventura');
+const instagramJup = document.getElementById('instagram_ventura');
+
+function dadosVentura () {
+  foto.setAttribute('src', tCantorasJson[1].foto);
+  titulo.innerText = tCantorasJson[1].nome;
+  generos.innerText = tCantorasJson[1].generos.join(" - ");
+  discografia.innerText = tCantorasJson[1].discografia.join(" - ");
+  instagram.setAttribute('href', tCantorasJson[1].instagram); 
+  }
+
+  dadosVentura()
+
+  //Linn da Quebrada
+
+  const fotoJup = document.getElementById('photography_ventura');
+const tituloJup = document.getElementById('title_ventura');
+const generosJup = document.getElementById('gender_ventura');
+const discografiaJup = document.getElementById('discography_ventura');
+const instagramJup = document.getElementById('instagram_ventura');
+
+function dadosLinn () {
+  foto.setAttribute('src', tCantorasJson[0].foto);
+  titulo.innerText = tCantorasJson[0].nome;
+  generos.innerText = tCantorasJson[0].generos.join(" - ");
+  discografia.innerText = tCantorasJson[0].discografia.join(" - ");
+  instagram.setAttribute('href', tCantorasJson[0].instagram); 
