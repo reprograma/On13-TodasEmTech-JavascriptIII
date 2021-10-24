@@ -47,7 +47,7 @@ body {
   flex: auto;
 }
 
-#photography-kemilly, #photography-ludmila, #photography-Mary {
+#photography-kemilly, #photography-Ludmila, #photography-Mary {
   margin-top: 1rem;
   border-radius: 50%;
   border: solid 3px #a55eea50;
@@ -94,7 +94,7 @@ body {
 .tipography_Kemilly, .tipography_Ludmila, .tipography_Mary {
   font-size: 1.6rem;
   color: #f3f3f399;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 hr {
@@ -106,7 +106,7 @@ hr {
   font-size: 1.3rem;
   color: #f3f3f399;
   margin-left: 1.5rem;
-  font-weight: 800;
+  font-weight: 760;
   text-decoration: none;
 }
 
@@ -118,4 +118,14 @@ hr {
   filter: drop-shadow(1px 1px 1px #57657490);
 }
 
-/*Responsividade
+/*Responsividade*/
+
+@media (min-width: 768px) {
+  #main-wrapper {
+    padding: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

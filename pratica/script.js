@@ -21,5 +21,6 @@ function preencherDados() {
   discografia.innerText = objetoJson.discografia.join(" - ")
   instagram.setAttribute('href', objetoJson.instagram)
 }
+console.log(json.discografia)
 
 preencherDados()
