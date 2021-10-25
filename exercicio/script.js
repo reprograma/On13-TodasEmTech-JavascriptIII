@@ -1,26 +1,92 @@
 const json = [
   {
-    "nome": "Liniker",
-    "foto": "../assets/liniker.webp",
-    "generos": ["MPB", "Soul", "R&B", "Blues"],
-    "discografia": ["Remonta", "Goela Abaixo", "Indigo Borboleta Azul"], 
-    "instagram": "https://www.instagram.com/linikeroficial/"
+    nome: "Anahi",
+    foto: "../assets/mia.png",
+    generos: ["POP", "LATINO"],
+    discografia: ["Rebelde", "Nuestro Amor", "Celestial"],
+    instagram: "https://www.instagram.com",
   },
   {
-    "nome": "Liniker",
-    "foto": "../assets/liniker.webp",
-    "generos": ["MPB", "Soul", "R&B", "Blues"],
-    "discografia": ["Remonta", "Goela Abaixo", "Indigo Borboleta Azul"], 
-    "instagram": "https://www.instagram.com/linikeroficial/"
+    nome: "Dulce",
+    foto: "../assets/roberta.png",
+    generos: ["POP", "LATINO"],
+    discografia: ["Rebelde", "Nuestro Amor", "Celestial"],
+    instagram: "https://www.instagram.com",
   },
   {
-    "nome": "Liniker",
-    "foto": "../assets/liniker.webp",
-    "generos": ["MPB", "Soul", "R&B", "Blues"],
-    "discografia": ["Remonta", "Goela Abaixo", "Indigo Borboleta Azul"], 
-    "instagram": "https://www.instagram.com/linikeroficial/"
-  }
-]
+    nome: "Maite",
+    foto: "../assets/lup.png",
+    generos: ["POP", "LATINO"],
+    discografia: ["Rebelde", "Nuestro Amor", "Celestial"],
+    instagram: "https://www.instagram.com",
+  },
+];
+
+function Anahi() {
+  const nomeCantora = document.querySelector(".nome-cantora--um");
+  const generoCantora = document.querySelector(".discografia-cantora--um");
+  const discoCantora = document.querySelector(".generos-cantora--um");
+  const boxUm = document.querySelector(".box-um");
+  json.map((cantora) => {
+    if (cantora.nome == "Anahi") {
+      nomeCantora.innerHTML = cantora.nome;
+      const link = cantora.foto;
+      const imagem = document.createElement("img");
+      imagem.setAttribute("src", `${link}`);
+      boxUm.appendChild(imagem);
+      generoCantora.innerHTML = cantora.generos;
+      for (let disco of json) {
+        const discografia = disco.discografia;
+        discoCantora.innerHTML = discografia;
+      }
+    }
+  });
+}
+Anahi();
+
+function Dulce() {
+  const nomeCantora = document.querySelector(".nome-cantora--dois");
+  const generoCantora = document.querySelector(".discografia-cantora--dois");
+  const discoCantora = document.querySelector(".generos-cantora--dois");
+  const boxUm = document.querySelector(".box-dois");
+  json.map((cantora) => {
+    if (cantora.nome == "Dulce") {
+      nomeCantora.innerHTML = cantora.nome;
+      const link = cantora.foto;
+      const imagem = document.createElement("img");
+      imagem.setAttribute("src", `${link}`);
+      boxUm.appendChild(imagem);
+      generoCantora.innerHTML = cantora.generos;
+      for (let disco of json) {
+        const discografia = disco.discografia;
+        discoCantora.innerHTML = discografia;
+      }
+    }
+  });
+}
+Dulce();
+
+function Maite() {
+  const nomeCantora = document.querySelector(".nome-cantora--tres");
+  const generoCantora = document.querySelector(".discografia-cantora--tres");
+  const discoCantora = document.querySelector(".generos-cantora--tres");
+  const boxUm = document.querySelector(".box-tres");
+  json.map((cantora) => {
+    if (cantora.nome == "Maite") {
+      nomeCantora.innerHTML = cantora.nome;
+      const link = cantora.foto;
+      const imagem = document.createElement("img");
+      imagem.setAttribute("src", `${link}`);
+      boxUm.appendChild(imagem);
+      generoCantora.innerHTML = cantora.generos;
+      for (let disco of json) {
+        const discografia = disco.discografia;
+        discoCantora.innerHTML = discografia;
+      }
+    }
+  });
+}
+Maite();
 
 /* 
 
