@@ -16,8 +16,8 @@ const objetoJson = [
    },
   
    {
-     "nome":"Eshilay",
-     "foto": "http://portals1.com.br/wp-content/uploads/2016/07/eyshila_.jpg",
+     "nome":"Eyshila",
+     "foto": "https://studiosol-a.akamaihd.net/uploadfile/letras/fotos/1/4/f/e/14fee894c507846bf24ee5cac1a596db.jpg",
      "generos": ["MPB", "Soul", "R&B", "Blues","Gospel"],
      "discografia": [ "Deus Proverá", "Até Tocar o Céu"], 
      "instagram": "https://www.instagram.com/eyshilasantos/?hl=pt-br"
