@@ -1,4 +1,4 @@
-# On13-TodasEmTech-ProjetoListToDo
+# On13-TodasEmTech-JavaScriptIII-Revisão
 
 Esta é a 10ª semana da turma online Todas em Tech - Front-end, nesta aula do dia 16/10/2021 teremos os seguintes conteúdos:
 
