@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background: #e3352f url(/assets/background-bubble.gif);
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #540804;
+}
+
+main {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+header {
+    width: 90%;
+    text-align: center;
+}
+
+.header-titulo {
+    font-size: 2.8rem;
+    margin-bottom: 3rem;
+    color: #f3f3f3;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px #383737;
+}
+
+.container {
+    background: #EA8C55;
+    max-width: 40rem;
+    min-height: 40vh;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0.5rem;
+    box-shadow: 2px 4px 10px #85111170;
+    transition: 0.5s all;
+}
+
+.container:hover {
+    transform: scale(1.1);
+    transition: 0.5s all;
+}
+
+.titulo {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+.foto {
+    max-width: 20rem;
+    border-radius: 0.5rem;
+}
+
+.infos {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.subtitulos {
+    font-size: 1.8rem;
+}
+
+.p {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    font-weight: 500;
+    border-top: 1px solid #e3352f;
+}
+
+.texto {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.fab {
+    margin-top: 1.8rem;
+    font-size: 3rem;
+    text-align: center;
+    width: 100%;
+    color: #540804;
+    filter: drop-shadow(1px 1px 1px #57657490);
+    transition: 0.5s all;
+}
+
+.fab:hover {
+    color: #03752b;
+    transition: 0.5s all;
+}
+
+@media only screen and (max-width: 440px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        margin-bottom: 2rem;
+    }
+
+    .container:hover {
+        transform: none;
+    }
+}
+
+@media (min-width: 440px) and (max-width: 780px)  {
+    main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header {
+        max-width: 35rem;
+    }
+
+    .container {
+        margin-bottom: 2rem;
+        min-width: 35rem;
+    }
+
+    .container:hover {
+        transform: none;
+    }
+}
+
+@media (min-width: 780px) and (max-width: 1395px) {
+    main {
+        flex-wrap: wrap;
+    }
+
+    header {
+        max-width: 80rem;
+    }
+
+    .container {
+        margin-bottom: 2rem;
+        min-width: 32rem;
+    }
+
+    .container:hover {
+        transform: none;
+    }
+}
